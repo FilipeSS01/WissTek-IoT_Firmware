@@ -6,8 +6,6 @@
 .vscode/
 
 # N4_Storage
-N2_N3/N4/Dados_Brutos/*.txt
-N2_N3/N4/Dados_Brutos/*.tmp
 N4/Dados_Brutos/*.txt
 N4/Dados_Brutos/*.tmp
 N4/Dados_Processados/*.txt
