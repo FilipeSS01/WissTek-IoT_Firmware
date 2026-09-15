@@ -5,6 +5,14 @@
 #   you could uncomment the following to ignore the entire vscode folder
 .vscode/
 
+# N4_Storage
+N2_N3/N4/Dados_Brutos/*.txt
+N2_N3/N4/Dados_Brutos/*.tmp
+N4/Dados_Brutos/*.txt
+N4/Dados_Brutos/*.tmp
+N4/Dados_Processados/*.txt
+N4/Dados_Processados/*.tmp
+
 # Environments
 .env
 .envrc
