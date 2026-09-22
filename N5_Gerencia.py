@@ -54,7 +54,7 @@ while True:
                 RSSI_DL = (UL_B0/2.0)-74
 
             # RSSI de uplink no byte UL_B2 (Posição 24)
-            UL_B2 = int(partes[24])
+            UL_B2 = int(partes[27])
             if UL_B2 > 128:
                 RSSI_UL = ((UL_B2-256)/2.0)-74
             else:

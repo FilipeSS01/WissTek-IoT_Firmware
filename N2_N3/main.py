@@ -74,8 +74,8 @@ try:
         Contador_pkt_DL = (Contador_pkt_DL + 1) % 256
         Pacote_DL[12] = Contador_pkt_DL
         Pacote_DL[8] = ID_sensor
-        Pacote_DL[9] = ID_gateway
-        Pacote_DL[4] = Tempo_entre_pacotes
+        # Pacote_DL[9] = ID_gateway
+        # Pacote_DL[4] = Tempo_entre_pacotes
 
         # ======== PHY DL (ENVIO UNIVERSAL) ========
         # Independentemente se é MQTT ou Serial, o comando é o mesmo:
