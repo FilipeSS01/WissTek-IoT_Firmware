@@ -1,7 +1,6 @@
 /*
   MoT LoRa Mesh - Gateway (Inundação Gerenciada)
   Última versão: Adaptado para ESP32 + RFM95 (Kit PK-LoRa)
-  Arquivo: 1_Gateway_LoRa_V0_6.ino
 */
 
 //=======================================================================
